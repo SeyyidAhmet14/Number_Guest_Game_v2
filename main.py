@@ -81,7 +81,7 @@ if "correct_number" not in st.session_state:
 
 #kullanicidan tahmin alma
 
-guest = st.number_input("Say the number in your mind",min_value=1,max_value=50,step=1)
+guest = st.number_input("Say the number in your mind",min_value=1.0,max_value=50.0,step=1.0)
 
 #sessional state'e bir butonla gondericek
 #kullanici yonlendirilmesi(yukari,asagi vb.)
