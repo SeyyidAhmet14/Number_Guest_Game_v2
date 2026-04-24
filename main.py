@@ -25,7 +25,7 @@ guest = st.number_input("Say the number in your mind",min_value=1.0,max_value=50
 #sessional state'e bir butonla gondericek
 #kullanici yonlendirilmesi(yukari,asagi vb.)
 
-if st.button(f"{guest}.This is your guest! But are you sure?"):
+if st.button(f"{guest} This is your guest! But are you sure?"):
     if st.session_state.benefit > 0:
         #once dogru bilip bilmedigini kontrol et
         if guest == st.session_state.correct_number:
